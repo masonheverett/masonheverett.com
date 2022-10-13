@@ -22,6 +22,7 @@ title: Mason's Site
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: masonheverett
+linkedin_username: masonheverett
 
 # Build settings
 theme: minima

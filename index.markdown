@@ -5,6 +5,6 @@
 layout: home
 ---
 
-# This is Mason's site.
+## This is Mason's site.
 
 It uses Jekyll and Netlify.
