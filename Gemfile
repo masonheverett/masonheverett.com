@@ -3,8 +3,8 @@ source "https://rubygems.org"
 # Jekyll is the static site generator powering this site
 gem "jekyll", "~> 4.2.2"
 
-# Minima is the default theme for Jekyll sites
-gem "minima", "~> 2.5"
+# Minimal mistakes is the theme of this site
+gem "minimal-mistakes-jekyll"
 
 # Add plugins here
 group :jekyll_plugins do

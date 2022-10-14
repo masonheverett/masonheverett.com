@@ -1,15 +1,18 @@
 # Site settings
+minimal_mistakes_skin: dark
+locale: en-US
 title: Mason's Journal
-author: Mason Everett
+subtitle: Never Stop Learning
+name: Mason Everett
+description: Mason Everett's personal blog for sharing what he is learning from books and other media
+url: https://masonheverett.com
 baseurl: ""
-url: "https://masonheverett.com"
-github_username: masonheverett
-linkedin_username: masonheverett
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 exclude:
   - README.md
   - LICENSE
