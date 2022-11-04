@@ -7,6 +7,35 @@ name: Mason Everett
 description: Mason Everett's personal blog for sharing what he is learning from books and other media
 url: https://masonheverett.com
 baseurl: ""
+author:
+  avatar: /assets/images/mason.jpg
+  name: Mason Everett
+  bio: Mason is an experienced program leader and eager learner with a passion for helping clients improve how they design, deliver, and support software products.
+  location: New York, NY
+  links:
+    - label: Credera
+      icon: fas fa-fw fa-briefcase
+      url: https://www.credera.com/
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/masonheverett/
+    - label: Github
+      icon: fab fa-fw fa-github
+      url: https://github.com/masonheverett/
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      classes: wide
+      layout: single
+      read_time: true
+      related: true
+      share: true
+      show_date: true
 
 # Build settings
 theme: minimal-mistakes-jekyll
