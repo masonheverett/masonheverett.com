@@ -14,8 +14,9 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 exclude:
-  - README.md
   - LICENSE
+  - Makefile
+  - README.md
   # Excluded by default
   # - .sass-cache/
   # - .jekyll-cache/
